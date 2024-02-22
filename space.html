@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Exploration</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-blue-900 text-white py-4">
+    <div class="container mx-auto flex items-center justify-between px-4">
+      <h1 class="text-2xl font-bold">Space Exploration</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#missions" class="hover:underline">Missions</a></li>
+          <li><a href="#astronauts" class="hover:underline">Astronauts</a></li>
+          <li><a href="#gallery" class="hover:underline">Gallery</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto py-8">
+    <section class="mb-8">
+      <h2 class="missions text-2xl font-bold mb-4">Latest Missions</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="bg-white rounded-lg shadow-md p-4">
+          <h3 class="text-lg font-semibold mb-2">Perseverance Rover</h3>
+          <p class="text-sm text-gray-600">The Perseverance rover landed on Mars in February 2021 to search for signs of past microbial life and collect rock samples for return to Earth.</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-4">
+          <h3 class="text-lg font-semibold mb-2">Artemis Program</h3>
+          <p class="text-sm text-gray-600">NASA's Artemis program aims to return humans to the Moon by 2024, including the first woman and the next man.</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-4">
+          <h3 class="text-lg font-semibold mb-2">James Webb Space Telescope</h3>
+          <p class="text-sm text-gray-600">The James Webb Space Telescope is set to launch in December 2021 and will be the premier observatory of the next decade, serving thousands of astronomers worldwide.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-8">
+        <h2 class="astronauts text-2xl font-bold mb-4">Astronauts</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-semibold mb-2">Neil Armstrong</h3>
+                <p class="text-sm text-gray-600">Neil Alden Armstrong was an American astronaut and aeronautical engineer who was the first person to walk on the Moon.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-semibold mb-2">Sally Ride</h3>
+                <p class="text-sm text-gray-600">Sally Kristen Ride was an American astronaut, physicist, and engineer. She became the first American woman in space in 1983.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-semibold mb-2">Yuri Gagarin</h3>
+                <p class="text-sm text-gray-600">Yuri Alekseyevich Gagarin was a Soviet pilot and cosmonaut who became the first human to journey into outer space, achieving a major milestone in the Space Race.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+      <h2 class="gallery text-2xl font-bold mb-4">Gallery</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- Image Cards -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="pillars-of-creation.png/400x300" alt="Space Image" class="w-full">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">The Pillars of Creation</h3>
+            <p class="text-sm text-gray-600">The Pillars of Creation is a photograph taken by the Hubble Space Telescope of elephant trunks of interstellar gas and dust in the Eagle Nebula.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="earthrise.png/400x300" alt="Space Image" class="w-full">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">Earthrise</h3>
+            <p class="text-sm text-gray-600">Earthrise is a photograph taken by astronaut William Anders during the Apollo 8 mission in December 1968, showing Earth rising above the lunar horizon.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="milkyway.png/400x300" alt="Space Image" class="w-full">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">The Milky Way</h3>
+            <p class="text-sm text-gray-600">The Milky Way is the galaxy that contains our Solar System, consisting of billions of stars and their planetary systems, along with various types of interstellar matter.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-blue-900 text-white py-4">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2023 Space Exploration. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
